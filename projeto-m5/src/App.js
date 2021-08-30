@@ -7,11 +7,14 @@ import FormAluno from "./components/Forms/FormAluno";
 import FormProf from "./components/Forms/FormProf"; 
 import Sobre from "./components/sobre/Sobre";
 import "./components/sobre/SobreStyle.Css";
+import Home from "./components/home/home";
+import "./components/home/homeStyle.css";
 
 function App() {
   return (
     <section>
    <Header/> 
+   <Home/>
    <Footer/>
    </section>
   );

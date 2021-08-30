@@ -22,7 +22,7 @@ export default class Header extends Component {
               <a to="/contato">Contato</a>
             </li>
             <li>
-              <a to="/login">Login</a>
+              <a to="/login">Intranet</a>
             </li>
           </ul>
         </nav>
