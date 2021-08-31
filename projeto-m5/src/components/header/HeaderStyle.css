@@ -3,9 +3,6 @@
 .header-back {
     width: 100%;
     padding: 0;
-    font-family: "Poppins", sans-serif;
-    font-size: 17px;
-    color: #f04e23;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,4 +23,11 @@ ul {
 li {
   margin: 10px;
   padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: #f04e23;
 }
