@@ -14,7 +14,7 @@ export default class Header extends Component {
         <nav className="links-pages">
             <ul>
               <li> <Link to="/">Home</Link></li>
-              <li><Link to="sobre">Nosso time</Link></li>          
+              <li><Link to="/time">Nosso time</Link></li>          
               <li><Link to="/login">Portal</Link></li>
             </ul>
           </nav>
