@@ -1,12 +1,135 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-.img-students img {
-    width: 100%;
-    margin-top: 0px;
+.body-about {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 61px 45px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: #0484CA;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-part {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.first-pic {
+    width: 50%;
+    align-items: center;
+}
+
+.first-pic img {
+    border: solid 5px #2FBD59;
+}
+
+.second-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-pic {
+    width: 50%;
+    align-items: center;
+}
+
+.second-pic img {
+    border: solid 5px #F04E23;
+}
+
+.second-part {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.third-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-part {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.third-pic {
+    width: 50%;
+    align-items: center;
+}
+
+.third-pic img {
+    border: solid 5px #2FBD59;
 }
 
 
-.body-home {
+img {
+    border-radius: 100%;
+    width: 90%;
+    align-items: center;
+    animation-duration: 1s;
+    animation-name: ZoomIn;
+}
+
+@keyframes ZoomIn {
+    from  {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 350px)
+{
+  .first-line
+   {
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .first-part {
+       font-size: 19px;
+   }
+
+   .second-line
+   {
     display: flex;
-    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 52px;
+    margin-bottom: 32px;
+   }
+
+   .second-part {
+       font-size: 17px;
+   }
+
+   .third-line
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .third-part {
+       font-size: 19px;
+   }
 }

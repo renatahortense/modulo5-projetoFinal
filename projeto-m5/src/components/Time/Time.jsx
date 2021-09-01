@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./SobreStyle.css";
+import "./Time.css";
 import Andre from "../assets/Andre.jpeg";
 import Emily from "../assets/Emily.jpeg";
 import Lucas from "../assets/Lucas.jpeg";

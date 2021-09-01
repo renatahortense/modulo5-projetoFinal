@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import FormAluno from "./components/Forms/FormAluno";
 import FormProf from "./components/Forms/FormProf";
 import Home from "./components/home/home";
-import Sobre from "./components/sobre/Sobre";
+import Time from "./components/Time/Time";
 import Contato from "./components/Contato/Contato"
 import {
   BrowserRouter as Router,
@@ -23,8 +23,8 @@ class App extends Component {
               <Route path="/" exact>
                 <Home />
               </Route>
-              <Route path="/sobre">
-                <Sobre />
+              <Route path="/time">
+                <Time />
               </Route>
               <Route path="/contato">
                 <Contato />

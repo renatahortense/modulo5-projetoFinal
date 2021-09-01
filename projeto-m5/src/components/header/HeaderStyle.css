@@ -3,7 +3,7 @@
 .header-back {
     width: 100%;
     height: 151px;
-    padding: 0;
+    padding: 44px 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,8 +17,6 @@
 
 .logo-img img {
   width: 300px;
-  animation-duration: 3s;
-  animation-name: ZoomIn;
 }
 
 .header-links {
@@ -37,13 +35,4 @@ li {
   font-family: "Poppins", sans-serif;
   font-size: 19px;
   color: #f04e23;
-}
-
-@keyframes ZoomIn {
-  from {
-    transform: scale(.1);
-  }
-  to {
-    transform: scale(1);
-  }
 }
