@@ -1,0 +1,21 @@
+button{
+    margin: 30px;
+    font-size: 40px;
+    background-color: #0484ca;
+    color:#f3f3f3;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+        }
+
+        .botao{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+   
+   
