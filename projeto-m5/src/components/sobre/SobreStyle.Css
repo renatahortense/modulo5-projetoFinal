@@ -1,9 +1,165 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-.title-about {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    flex-direction: column;
-    align-content: center;
+.body-about {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 30px;
+}
+
+.school h1 {
+    font-family: 'Poppins', sans-serif;  
+    color: #0484CA;
+}
+
+a {
+    text-decoration: none;
+    color:#0484CA;
+}
+
+.first {
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 65px;
+    background-color: #F3F3F3;
+}
+
+.andre-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid #2FBD59;
+    animation-duration: 3s;
+    animation-name: ZoomIn;
+}
+
+.first-link {
+    display: flex;
+    color: #F04E23;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.second {
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    background-color: #F3F3F3;
+}
+
+.emily-img {
+    width: 200px;
+    height: 180px;
+    border-radius: 100%;
+    border: 4px solid #2FBD59;
+    animation-duration: 3s;
+    animation-name: ZoomIn;
+}
+
+.second-link {
+    display: flex;
+    color: #F04E23;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.third {
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    background-color: #F3F3F3;
+}
+
+.lucas-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid #2FBD59;
+    animation-duration: 3s;
+    animation-name: ZoomIn;
+}
+
+.third-link {
+    display: flex;
+    color: #F04E23;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fourth {
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    background-color: #F3F3F3;
+}
+
+.renata-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid #2FBD59;
+    animation-duration: 3s;
+    animation-name: ZoomIn;
+}
+
+.fourth-link {
+    display: flex;
+    color: #F04E23;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fifth {
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+    background-color: #F3F3F3;
+}
+
+.ronaldo-img {
+    width: 200px;
+    height: 200 px;
+    border-radius: 100%;
+    border: 4px solid #2FBD59;
+    animation-duration: 3s;
+    animation-name: ZoomIn;
+}
+
+.fifth-link {
+    display: flex;
+    color: #F04E23;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+@keyframes ZoomIn {
+    from  {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
 }

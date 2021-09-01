@@ -10,14 +10,15 @@ export default class Header extends Component {
         <div className="logo-img">
           <img src={Logo} />
         </div>
+        <div className="header-links">
         <nav className="links-pages">
             <ul>
               <li> <Link to="/">Home</Link></li>
-              <li><Link to="sobre">Sobre nós</Link></li>          
-              <li><Link to="/contato">Contato</Link></li>
-              <li><Link to="/login">Intranet</Link></li>
+              <li><Link to="sobre">Nosso time</Link></li>          
+              <li><Link to="/login">Portal</Link></li>
             </ul>
           </nav>
+          </div>
       </header>
     );
   }
