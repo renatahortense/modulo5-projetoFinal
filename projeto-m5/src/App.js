@@ -29,6 +29,12 @@ class App extends Component {
             <Route exact path="/login">
               <PortalButton />
             </Route>
+            <Route exact path="/login/aluno">
+              <FormAluno />
+            </Route>
+            <Route exact path="/login/professor">
+            <FormProf />
+            </Route>
 
           </Switch>
         </Router>
