@@ -1,14 +1,14 @@
-button{
+  button{
     margin: 30px;
-    font-size: 40px;
-    background-color: #0484ca;
-    color:#f04e23;
+    font-size: 30px;
+    align-content: center;
     border: 1px solid #eee;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #eee;
-    text-shadow:none;
-   
-        }
+    text-shadow:none; 
+    color: #0484ca;
+  }  
+ 
 
         .botao{
             display: flex;
@@ -16,7 +16,7 @@ button{
             align-content: center;
             align-items: center;
             margin-bottom: 50px;
-            color:#f3f3f3;
+           
          
         }
         
