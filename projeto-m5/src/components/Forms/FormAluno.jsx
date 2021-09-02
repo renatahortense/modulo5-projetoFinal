@@ -8,19 +8,23 @@ function FormAluno() {
     <main>
       <h1>Cadastro Aluno</h1>
 
-      <form>
-        <div className="formulario">
-          <label>Nome</label>
-          <input />
-          <label>Email</label>
-          <input />
-          <label>Telefone</label>
-          <input />
-        </div>
-        <button className="enviar">Cadastrar</button>
-        <button className="enviar">Remover</button>
-        <button className="enviar">Alterar</button>
-      </form>
+      <div className="formulario">
+        <form>
+          
+            <label>Nome<input /></label>
+            
+            <label>Email<input /></label>
+            
+            <label>Telefone<input /></label>
+            
+          
+        </form>
+      </div>
+      <div className="alinhar-botao">
+            <button className="enviar">Cadastrar</button>
+            <button className="enviar">Remover</button>
+            <button className="enviar">Alterar</button>
+          </div>
     </main>
   );
 }

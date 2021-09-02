@@ -1,3 +1,20 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 45px;
+}
+
+input {
+    display: flex;
+    align-content: center;
+    width: 60%;
+    height: 30px;
+    border-radius: 16px;
+    border: solid #2fbd59;
+}
+
 h1{
     color:#0484ca;
     text-align: center;
@@ -13,12 +30,9 @@ label{
     text-align: center;  
 }
 
-input{
+.alinhar-botao {
     display: flex;
-    align-content: center;
-    
-}
-
-.enviar{
-    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
