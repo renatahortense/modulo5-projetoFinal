@@ -32,7 +32,23 @@ label{
 
 .alinhar-botao {
     display: flex;
+<<<<<<< HEAD
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+=======
+    align-content: center;
+    
+}
+button{
+    margin: 30px;
+    font-size: 25px;
+    align-content: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none; 
+    color: #0484ca;
+  }  
+>>>>>>> d44eb402ee381c823b28159ef8df8acf2bf9e8e0
