@@ -1,3 +1,24 @@
 h1{
-    color:red;
+    color:#0484ca;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: #0484CA;
+    text-align: center;  
+}
+
+input{
+    display: flex;
+    align-content: center;
+    
+}
+
+.enviar{
+    text-align: center;
 }
