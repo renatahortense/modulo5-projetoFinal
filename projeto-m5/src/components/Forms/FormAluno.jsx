@@ -7,6 +7,7 @@ function FormAluno() {
   return (
     <main>
       <h1>Cadastro Aluno</h1>
+
       <form>
         <div className="formulario">
           <label>Nome</label>
@@ -16,7 +17,9 @@ function FormAluno() {
           <label>Telefone</label>
           <input />
         </div>
-        <button className="enviar">Enviar</button>
+        <button className="enviar">Cadastrar</button>
+        <button className="enviar">Remover</button>
+        <button className="enviar">Alterar</button>
       </form>
     </main>
   );
