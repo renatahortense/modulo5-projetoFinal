@@ -18,7 +18,13 @@ input{
     align-content: center;
     
 }
-
-.enviar{
-    text-align: center;
-}
+button{
+    margin: 30px;
+    font-size: 25px;
+    align-content: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none; 
+    color: #0484ca;
+  }  
