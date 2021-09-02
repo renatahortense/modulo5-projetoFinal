@@ -3,6 +3,9 @@
 .body-about {
     font-family: 'Poppins', sans-serif;
     padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .school h1 {
