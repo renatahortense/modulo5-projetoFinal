@@ -8,7 +8,7 @@ export default class Home extends Component {
   render() {
     return (
       <section>
-        <div className="body-about">
+        <div className="body-about-home">
           <div className="first-line">
             <div className="first-part">
               <p>Colégio Santa Madalena</p>               
