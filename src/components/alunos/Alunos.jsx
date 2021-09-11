@@ -6,7 +6,7 @@ function Alunos() {
   const [Aluno, setAluno] = useState([]);
 
   useEffect(() => {
-    let url = "http://csm-api-rest.herokuapp.com/aluno";
+    let url = "https://csm-api-rest.herokuapp.com/aluno";
 
     const buscaTodos = async () => {
       await axios
@@ -23,7 +23,7 @@ function Alunos() {
   }, []);
 
   function deleteAluno(nome) {
-    axios.delete(`http://csm-api-rest.herokuapp.com/aluno/${nome}`)
+    axios.delete(`https://csm-api-rest.herokuapp.com/aluno/${nome}`)
 
       .then((resposta) => {
         //Simula um refresh na página

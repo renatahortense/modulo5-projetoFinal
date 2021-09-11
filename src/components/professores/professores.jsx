@@ -6,7 +6,7 @@ function Professores() {
   const [professor, setProfessor] = useState([]);
 
   useEffect(() => {
-    let url = "http://csm-api-rest.herokuapp.com/professor";
+    let url = "https://csm-api-rest.herokuapp.com/professor";
 
     const buscaTodos = async () => {
       await axios
@@ -24,7 +24,7 @@ function Professores() {
 
   function deleteProf(nome) {
     axios
-      .delete(`http://csm-api-rest.herokuapp.com/professor/${nome}`)
+      .delete(`https://csm-api-rest.herokuapp.com/professor/${nome}`)
 
       .then((resposta) => {
         //Simula um refresh na página

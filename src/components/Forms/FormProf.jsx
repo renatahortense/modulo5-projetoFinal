@@ -18,7 +18,7 @@ const FormProf = () => {
     const { nome, disciplina, email } = form;
 
     axios
-      .post("http://csm-api-rest.herokuapp.com/professor", {
+      .post("https://csm-api-rest.herokuapp.com/professor", {
         nome,
         disciplina,
         email,
