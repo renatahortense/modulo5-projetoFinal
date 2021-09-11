@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5059ea4.chunk.css",
-    "main.js": "/static/js/main.49edab37.chunk.js",
-    "main.js.map": "/static/js/main.49edab37.chunk.js.map",
+    "main.css": "/static/css/main.1387b543.chunk.css",
+    "main.js": "/static/js/main.c5db7f5e.chunk.js",
+    "main.js.map": "/static/js/main.c5db7f5e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a2c2815.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a2c2815.js.map",
     "static/js/2.f7ad1276.chunk.js": "/static/js/2.f7ad1276.chunk.js",
     "static/js/2.f7ad1276.chunk.js.map": "/static/js/2.f7ad1276.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a5059ea4.chunk.css.map": "/static/css/main.a5059ea4.chunk.css.map",
+    "static/css/main.1387b543.chunk.css.map": "/static/css/main.1387b543.chunk.css.map",
     "static/js/2.f7ad1276.chunk.js.LICENSE.txt": "/static/js/2.f7ad1276.chunk.js.LICENSE.txt",
     "static/media/Andre.d84daa13.jpeg": "/static/media/Andre.d84daa13.jpeg",
     "static/media/Emily.fadef957.jpeg": "/static/media/Emily.fadef957.jpeg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.4a2c2815.js",
     "static/js/2.f7ad1276.chunk.js",
-    "static/css/main.a5059ea4.chunk.css",
-    "static/js/main.49edab37.chunk.js"
+    "static/css/main.1387b543.chunk.css",
+    "static/js/main.c5db7f5e.chunk.js"
   ]
 }
