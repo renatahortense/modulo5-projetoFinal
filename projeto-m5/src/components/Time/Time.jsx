@@ -16,7 +16,7 @@ export default class Header extends Component {
           </div>
           <div className="first">
             <div className="first-img">
-              <img className="andre-img" src={Andre}/>
+              <img className="andre-img" src={Andre} alt=""/>
             </div>
             <div className="first-link">
               <p className="first-name">André Eigenheer</p>
@@ -48,14 +48,14 @@ export default class Header extends Component {
               </p>
             </div>
             <div className="fourth-img">
-              <img className="renata-img" src={Renata} />
+              <img className="renata-img" src={Renata} alt=""/>
             </div>
           </div>
 
 
           <div className="third">
             <div className="third-img">
-              <img className="lucas-img" src={Lucas} />
+              <img className="lucas-img" src={Lucas} alt="" />
             </div>
             <div className="third-link">
               <p className="third-name">Lucas V. Ferreira</p>
@@ -87,13 +87,13 @@ export default class Header extends Component {
               </p>
             </div>
             <div className="fifth-img">
-              <img className="ronaldo-img" src={Ronaldo} />
+              <img className="ronaldo-img" src={Ronaldo} alt="" />
             </div>
           </div>
 
           <div className="second">
             <div className="second-img">
-              <img className="emily-img" src={Emily} />
+              <img className="emily-img" src={Emily} alt="" />
             </div>
             <div className="second-link">
               <p className="second-name">Emily Ferreira</p>
