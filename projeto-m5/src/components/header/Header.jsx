@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <header className="header-back">
         <div className="logo-img">
-          <img src={Logo} />
+          <img src={Logo} alt="" />
         </div>
         <div className="header-links">
         <nav className="links-pages">

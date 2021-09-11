@@ -1,32 +1,68 @@
 import React from "react";
 import "./Forms.module.css";
-import { Link } from "react-router-dom";
-import { useForm } from "react-hook-form";
+import axios from "axios";
 
-function FormAluno() {
+const FormAluno = () => {
+  const [form, setForm] = React.useState({
+    nome: "",
+    turma: "",
+    email: "",
+  });
+
+  function handleChange({ target }) {
+    const { id, value } = target;
+    setForm({ ...form, [id]: value });
+  }
+  function inserirAluno(event) {
+    event.preventDefault();
+    const { nome, turma, email } = form;
+
+    axios
+      .post("https://csm-api-rest.herokuapp.com/aluno", { nome, turma, email })
+      .then((resposta) => {
+        //Levar para pagina Todos alunos
+
+        window.location = "/alunos";
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
   return (
-    <main>
-      <h1>Cadastro Aluno</h1>
+    <div>
+      <h1>Cadastrar Aluno</h1>
+      <form onSubmit={inserirAluno}>
+        <label htmlFor="nome">Nome</label>
+        <input
+          id="nome"
+          type="text"
+          name="nome"
+          value={form.nome}
+          onChange={handleChange}
+        />
 
-      <div className="formulario">
-        <form>
-          
-            <label>Nome<input /></label>
-            
-            <label>Email<input /></label>
-            
-            <label>Telefone<input /></label>
-            
-          
-        </form>
-      </div>
-      <div className="alinhar-botao">
-            <button className="enviar">Cadastrar</button>
-            <button className="enviar">Remover</button>
-            <button className="enviar">Alterar</button>
-          </div>
-    </main>
+        <label htmlFor="turma">Turma</label>
+        <input
+          id="turma"
+          type="text"
+          name="turma"
+          value={form.turma}
+          onChange={handleChange}
+        />
+
+        <label htmlFor="email">E-mail</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          value={form.email}
+          onChange={handleChange}
+        />
+        <button type="submit">enviar</button>
+      </form>
+    </div>
   );
-}
+};
 
 export default FormAluno;

@@ -14,13 +14,13 @@ export default class Home extends Component {
               <p>Colégio Santa Madalena</p>               
             </div>
             <div className="first-pic">
-              <img src={First}/>
+              <img src={First} alt=""/>
             </div>
           </div>
 
           <div className="second-line">
                   <div className="second-pic">
-                      <img src={Second}/>
+                      <img src={Second} alt=""/>
                   </div>
                   <div className="second-part">
                           <p>Muito além de um simples colégio</p>
@@ -32,7 +32,7 @@ export default class Home extends Component {
                               <p>Uma nova maneira de ensinar!</p>
                   </div>
                   <div className="third-pic">
-                              <img src={Third}/>
+                              <img src={Third} alt=""/>
                   </div>
               </div>
         </div>
