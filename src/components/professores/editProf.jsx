@@ -26,7 +26,6 @@ const EditProf = () => {
       window.location="/professores"
     })
     .catch((err)=>{
-      console.log(err)
     })
   }
 

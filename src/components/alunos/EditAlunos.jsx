@@ -26,7 +26,6 @@ const EditAluno = () => {
       window.location="/alunos"
     })
     .catch((err)=>{
-      console.log(err)
     })
   }
 

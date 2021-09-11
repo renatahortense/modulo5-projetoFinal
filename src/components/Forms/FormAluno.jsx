@@ -25,7 +25,6 @@ const FormAluno = () => {
         window.location = "/alunos";
       })
       .catch((err) => {
-        console.log(err);
       });
   }
 

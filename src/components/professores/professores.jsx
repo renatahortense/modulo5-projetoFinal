@@ -12,11 +12,9 @@ function Professores() {
       await axios
         .get(url)
         .then((response) => {
-          console.log(response.data);
           setProfessor(response.data);
         })
         .catch((err) => {
-          console.log(err);
         });
     };
     buscaTodos();
@@ -32,7 +30,6 @@ function Professores() {
         window.location = "/professores";
       })
       .catch((err) => {
-        console.log(err);
       });
   }
 

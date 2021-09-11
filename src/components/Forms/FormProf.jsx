@@ -27,7 +27,6 @@ const FormProf = () => {
         window.location = "/professores";
       })
       .catch((err) => {
-        console.log(err);
       });
   }
 

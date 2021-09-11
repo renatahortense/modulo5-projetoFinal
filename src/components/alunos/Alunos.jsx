@@ -12,11 +12,9 @@ function Alunos() {
       await axios
         .get(url)
         .then((response) => {
-          console.log(response.data);
           setAluno(response.data);
         })
         .catch((err) => {
-          console.log(err);
         });
     };
     buscaTodos();
@@ -31,7 +29,6 @@ function Alunos() {
         window.location = "/alunos"
       })
       .catch((err) => {
-        console.log(err)
       })
   }
 
