@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5059ea4.chunk.css",
+    "main.js": "/static/js/main.49edab37.chunk.js",
+    "main.js.map": "/static/js/main.49edab37.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4a2c2815.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4a2c2815.js.map",
+    "static/js/2.f7ad1276.chunk.js": "/static/js/2.f7ad1276.chunk.js",
+    "static/js/2.f7ad1276.chunk.js.map": "/static/js/2.f7ad1276.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a5059ea4.chunk.css.map": "/static/css/main.a5059ea4.chunk.css.map",
+    "static/js/2.f7ad1276.chunk.js.LICENSE.txt": "/static/js/2.f7ad1276.chunk.js.LICENSE.txt",
+    "static/media/Andre.d84daa13.jpeg": "/static/media/Andre.d84daa13.jpeg",
+    "static/media/Emily.fadef957.jpeg": "/static/media/Emily.fadef957.jpeg",
+    "static/media/Logo.626f442c.png": "/static/media/Logo.626f442c.png",
+    "static/media/Lucas.5d601320.jpeg": "/static/media/Lucas.5d601320.jpeg",
+    "static/media/Renata.0f26f45f.jpg": "/static/media/Renata.0f26f45f.jpg",
+    "static/media/Ronaldo.d3cd650c.jpeg": "/static/media/Ronaldo.d3cd650c.jpeg",
+    "static/media/first-pic.38569601.jpg": "/static/media/first-pic.38569601.jpg",
+    "static/media/second-pic.d0a29835.jpg": "/static/media/second-pic.d0a29835.jpg",
+    "static/media/third-pic.495124e9.jpg": "/static/media/third-pic.495124e9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a2c2815.js",
+    "static/js/2.f7ad1276.chunk.js",
+    "static/css/main.a5059ea4.chunk.css",
+    "static/js/main.49edab37.chunk.js"
+  ]
+}
